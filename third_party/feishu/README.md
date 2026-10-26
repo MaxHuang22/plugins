@@ -50,7 +50,6 @@ The China server advertises the same tool surface as international Lark, includi
 - Tool calls run as the Feishu user who authorizes the connection and cannot exceed that user's permissions.
 - This plugin points only at Feishu's official hosted endpoint. It does not wrap the local `@larksuiteoapi/lark-mcp` stdio server, and it does not take an app id, app secret, user access token, or `X-Lark-MCP-*` header.
 - Feishu hosts the server itself. OAuth uses the authorization server at `https://accounts.feishu.cn/mcp` and dynamic client registration at `https://open.feishu.cn/open-apis/app/v1/dcr`.
-- International Lark Suite is a separate plugin (`lark`) pointing at `https://mcp.larksuite.com/mcp`.
 - Revoke access at any time from your Feishu account.
 
 ## Docs
